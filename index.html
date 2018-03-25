@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project Pixel Art Maker</title>
+    <link rel="icon" href="favicon.ico"> 
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Raleway" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous">
+    </script>
+    <script src="js/core.js"></script>
+</head>
+
+<body>
+
+    <div class="userInfo center">
+
+        <h1>Project Pixel Art Maker</h1>
+
+        <form id="gridSizeSelect">
+            <span>Height: </span>
+            <input type="number" name="gridHeight" id="gridHeight" min="1" value="15">
+            <span>Width: </span>
+            <input type="number" name="gridWidth" id="gridWidth" min="1" value="15"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" class="submitButton" value="Submit">
+        </form>
+
+        <div class="colorDiv">
+            Choose a color:
+            <input type="color" id="colorPicker" value="#ff0000">
+        </div>
+
+        <h2>Design Canvas</h2>
+
+    </div>
+
+    <div id="container" class="center"></div>
+    <p class="center"><button class="imageButton" id="openAsImage">Open as Image</button></p>
+
+</body>
+
+</html>

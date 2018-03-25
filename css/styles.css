@@ -1,0 +1,65 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f1f1cd;
+}
+
+.userInfo>h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 2.5em;
+    color: #073205;
+}
+
+.userInfo>h2 {
+    color: #0c6318;
+}
+
+#gridHeight,
+#gridWidth {
+    font-family: 'Raleway', sans-serif;
+    max-width: 3em;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #076f0f;
+}
+
+.submitButton,
+.imageButton {
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #076f0f;
+    cursor: pointer;
+}
+
+.colorDiv {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.center {
+    text-align: center;
+}
+
+#container {
+    height: auto;
+}
+
+#container .row {
+    height: 22px;
+}
+
+#container .col {
+    width: 22px;
+    height: 100%;
+    border: 1px solid rgba(8, 74, 14, .8);
+    margin-left: -1px;
+    display: inline-block;
+}
+
+.backcolor {
+    background-color: #fff !important;
+    /* default background color (white) */
+}
