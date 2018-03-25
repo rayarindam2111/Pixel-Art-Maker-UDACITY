@@ -39,7 +39,8 @@ $(function () {
             $(this).addClass('backcolor');
         }
     });
-
+    
+    //open grid as an image in new tab
     $('#openAsImage').click(function convertToImage(){
         var cellHeight = 22, cellWidth = 22;
         var canvas = document.createElement("canvas");
@@ -68,5 +69,4 @@ $(function () {
     });
 
     makeGrid();
-
 });
